@@ -11,9 +11,12 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid black;
     height: auto;
     background-color: #4B483D;
+    background-image: linear-gradient(to right,#4B483D, #9c9585);
+    justify-content: space-between;
+    align-items: flex-end;
+   
 }
 div.polaroid {
     width: 200px;
@@ -50,47 +53,114 @@ div.container {
 .name{
     display: flex;
     flex-direction: column;
-    width: 760px;
     font-family: 'Calligraffitti', cursive;
     color: #FFFFFF;
 } 
 h1{
-    padding-top: 150px;
-    text-align: right;
+ 
     font-size: 3rem;
-    margin-right: 40px;
+    margin-right: 60px;
 } 
 h2{
+   
     text-align: right;
     font-family: 'Fira Sans', sans-serif;
-    margin-right: 40px;     
+    margin-right: 60px; 
+    margin-bottom: 50px;    
 }
-/*begin midden*/
+/*begin midden-links*/
+/*persoonlijke gegevens*/
 .middle-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: auto;
     width: 100%;
-    border: 1px solid green;
+    border: 1px solid black;
 }
-.personal-box{
-    width: 37%;
-    height: 400px;
+.column-left{
+    width: 25%;
     border: 1px solid red;
     background-color:  #E4C6BE;
+    background-image: linear-gradient( #E4C6BE, #FFFFFF);
+    padding-left: 50px;
 }
-.personal-box ul{
-    border: 1px solid yellow;
+.personal-box-list ul{
+    border: 1px solid green;
     height: 200px;
     text-align: left;
-    margin-left: 50px;
     padding-top: 50px;
-    line-height: 300%;
+    line-height: 300%; 
 }
-.personal-box ul li{
+.personal-box-list ul li{
     list-style: none;
-    font-family: 'Fira Sans', sans-serif;
-   
+    font-family: 'Fira Sans', sans-serif; 
+    margin-left: 50px;
 }
-
+/*opleiding*/
+.education{
+    border: 1px solid orange;
+    height: auto;
+    text-align: left;
+    padding-top: 10px;
+    line-height: 300%; 
+    padding-left: 50px;
+}
+.education-title{
+    font-size: 2rem;
+}
+.education-title ul{
+    border: 1px solid blue;
+    height: 100px;
+    text-align: left;
+    padding-top: 50px;
+    line-height: 300%; 
+    list-style: none;
+}
+.education-title ul li{
+    font-family: 'Fira Sans', sans-serif; 
+    margin-left: 50px;
+}
+/*vaardigheden*/
+.skills{
+    border: 1px solid orange;
+    height: auto;
+    text-align: left;
+    padding-top: 10px;
+    line-height: 300%; 
+    padding-left: 50px;
+}
+.skills-title{
+    font-size: 2rem;
+}
+.skills-title ul{
+    border: 1px solid blue;
+    height: 100px;
+    text-align: left;
+    padding-top: 50px;
+    line-height: 300%; 
+}
+.skills-title ul li{
+    font-family: 'Fira Sans', sans-serif; 
+    margin-left: 50px;
+ 
+}
+/*rechtse kolom*/
+.column-right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid blue;
+    background-color: blue;
+    justify-content: left;
+    padding-left: 100px;
+    height: auto;
+    width: auto;
+}
+.border-profiel{
+    border: 1px solid red;
+    font-size: 3rem;
+    font-family: 'Fira Sans', sans-serif; 
+    padding-left: 20px;
+    padding-top: 20px;
+}
