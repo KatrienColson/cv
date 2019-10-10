@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0px;
+    box-sizing: border-box;
 }
 body{
     width: 100%;
@@ -79,18 +80,18 @@ h2{
     border: 1px solid black;
 }
 .column-left{
-    width: 25%;
+    width: 35%;
     border: 1px solid red;
     background-color:  #E4C6BE;
     background-image: linear-gradient( #E4C6BE, #FFFFFF);
-    padding-left: 50px;
+    padding-left: 20px;
 }
 .personal-box-list ul{
     border: 1px solid green;
-    height: 200px;
+    height: 400px;
     text-align: left;
     padding-top: 50px;
-    line-height: 300%; 
+    
 }
 .personal-box-list ul li{
     list-style: none;
@@ -116,6 +117,7 @@ h2{
     padding-top: 50px;
     line-height: 300%; 
     list-style: none;
+  
 }
 .education-title ul li{
     font-family: 'Fira Sans', sans-serif; 
@@ -149,18 +151,50 @@ h2{
 .column-right{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     border: 1px solid blue;
     background-color: blue;
-    justify-content: left;
-    padding-left: 100px;
+    justify-content: right;
+    width: 65%;
     height: auto;
-    width: auto;
 }
 .border-profiel{
+    border: 1px solid yellow;
+    font-size: 3rem;
+    font-family: 'Fira Sans', sans-serif; 
+    padding-left: 20px;
+    padding-top: 20px;
+   
+}
+li{
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif; 
+    line-height: 300%; 
+    list-style: none;
+}
+/*werkervaring*/
+.work-experience{
     border: 1px solid red;
     font-size: 3rem;
     font-family: 'Fira Sans', sans-serif; 
     padding-left: 20px;
     padding-top: 20px;
+    height: 400px;
+}
+.list-experience{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.box-experience{
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif; 
+}
+.periode{
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif; 
 }
