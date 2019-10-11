@@ -5,6 +5,7 @@
 }
 body{
     width: 100%;
+    color: #404040;
 }
 
 /*header met foto*/
@@ -62,8 +63,7 @@ h1{
     font-size: 3rem;
     margin-right: 60px;
 } 
-h2{
-   
+h2{   
     text-align: right;
     font-family: 'Fira Sans', sans-serif;
     margin-right: 60px; 
@@ -77,21 +77,17 @@ h2{
     flex-wrap: wrap;
     height: auto;
     width: 100%;
-    border: 1px solid black;
 }
 .column-left{
     width: 35%;
-    border: 1px solid red;
     background-color:  #E4C6BE;
     background-image: linear-gradient( #E4C6BE, #FFFFFF);
     padding-left: 20px;
 }
 .personal-box-list ul{
-    border: 1px solid green;
     height: 400px;
     text-align: left;
-    padding-top: 50px;
-    
+    padding-top: 50px;   
 }
 .personal-box-list ul li{
     list-style: none;
@@ -100,7 +96,6 @@ h2{
 }
 /*opleiding*/
 .education{
-    border: 1px solid orange;
     height: auto;
     text-align: left;
     padding-top: 10px;
@@ -111,13 +106,11 @@ h2{
     font-size: 2rem;
 }
 .education-title ul{
-    border: 1px solid blue;
     height: 100px;
     text-align: left;
     padding-top: 50px;
     line-height: 300%; 
-    list-style: none;
-  
+    list-style: none;  
 }
 .education-title ul li{
     font-family: 'Fira Sans', sans-serif; 
@@ -125,7 +118,6 @@ h2{
 }
 /*vaardigheden*/
 .skills{
-    border: 1px solid orange;
     height: auto;
     text-align: left;
     padding-top: 10px;
@@ -136,7 +128,6 @@ h2{
     font-size: 2rem;
 }
 .skills-title ul{
-    border: 1px solid blue;
     height: 100px;
     text-align: left;
     padding-top: 50px;
@@ -144,57 +135,85 @@ h2{
 }
 .skills-title ul li{
     font-family: 'Fira Sans', sans-serif; 
-    margin-left: 50px;
- 
+    margin-left: 50px; 
 }
 /*rechtse kolom*/
 .column-right{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border: 1px solid blue;
-    background-color: blue;
     justify-content: right;
     width: 65%;
     height: auto;
 }
 .border-profiel{
-    border: 1px solid yellow;
     font-size: 3rem;
     font-family: 'Fira Sans', sans-serif; 
     padding-left: 20px;
-    padding-top: 20px;
-   
+    padding-top: 20px;  
+}
+.profiel-title{
+    border-bottom: 1px solid pink;
+    margin-right: 80px;
+    margin-bottom: 20px;
 }
 li{
     font-size: 1rem;
     font-family: 'Fira Sans', sans-serif; 
-    line-height: 300%; 
+    line-height: 150%; 
     list-style: none;
+    padding-right: 60px;
+    margin-bottom: 20px;
 }
 /*werkervaring*/
 .work-experience{
-    border: 1px solid red;
-    font-size: 3rem;
-    font-family: 'Fira Sans', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding-left: 20px;
     padding-top: 20px;
-    height: 400px;
+    height: auto;
+}
+.experience-title{
+    border-bottom: 1px solid #E4C6BE;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-family: 'Fira Sans', sans-serif; 
 }
 .list-experience{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 50px;    
 }
-.box-experience{
-    border: 1px solid black;
-    padding-top: 10px;
+.box-experience{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding-bottom: 10px;
     justify-content: space-between;
-    font-size: 1rem;
-    font-family: 'Fira Sans', sans-serif; 
+    width: 100%;
 }
-.periode{
+.periode{   
     font-size: 1rem;
     font-family: 'Fira Sans', sans-serif; 
+    margin-bottom: 10px;
+}  
+.werkspace{   
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif;  
+   
+} 
+.employer{
+    font-style: italic;
+    font-size: 1rem;
+}
+.functie{
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.omschrijving{
+   
 }
